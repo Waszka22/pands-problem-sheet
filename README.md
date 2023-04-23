@@ -33,15 +33,23 @@ Prompt the user and read in two money amounts (in cent)
 Add the two amounts
 Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount. 
 ```
+Create two variables for the input values and convert input from string to integer
+Sum both amounts and convert numeric value to string
+```python
+total = str(amount1 + amount2)
+```
 
-Craeta two variable for the input values and convert input from string to interger. Request enter amount1 and amount2. 
-Function input() allows user input amount. 
-Sum both amounts and divide them via 100 to get Euro Units.
+Use len() method to calculate position of decimal point
 
 The sytntax used: 
 
 ``` python
-total =(amount1 + amount2)/ 100
+if length >= 3:
+    output = '€'+total[:length-2]+'.'+total[-2:]
+elif length == 2:
+   output = '€'+total[:length-2]+'0.'+total[-2:]
+else:
+    output = '€'+total[:length-2]+'0.0'+total[-2:]
 ```
  This task was helpful to understand all operators in Python 
 
