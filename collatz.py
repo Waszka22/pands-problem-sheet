@@ -1,3 +1,12 @@
+# Week Task 4 
+# Author: Agnieszka Waszczuk 
+# Reference https://medium.com/the-art-of-python/the-collatz-sequence-in-python-eb7e1f1b4f9e
+#           https://stackoverflow.com/questions/61789065/automate-the-boring-stuff-with-python-collatz-sequence
+#           https://github.com/thomaskellough/Automate-The-Boring-Stuff/blob/master/Practice-Projects/Ch%2003%20-%20Collatz%20Sequence.py
+# 
+# At each step calculate the next value by taking the current value and, 
+# if it is even, divide it by two, but if it is odd, multiply it by three and add one
+# Program end if the current value is one.
 
 your_number = input('Please give me a positive number: ')
 

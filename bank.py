@@ -20,6 +20,5 @@ elif length == 2:
 else:
     output = '€'+total[:length-2]+'0.0'+total[-2:]
 
-
 # Print out the total with € sign in front of the number and 2 decimal places
 print(f'The sum of these is {output}')
