@@ -1,3 +1,13 @@
+# Weekly task 6
+# Author: Agnieszka Waszczuk
+# Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
+# You should create a function called <tt>sqrt</tt> that does this.
+
+# Ref: https://www.codeleaks.io/python-square-root-function/
+#      https://www.youtube.com/watch?v=C_FFlau09_8 
+
+
+
 request = 'y'
 
 # the program will run everytime when you put 'y'
