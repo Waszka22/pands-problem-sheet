@@ -120,15 +120,29 @@ Write a program that takes a positive floating-point number as input and outputs
 You should create a function called <tt>sqrt</tt> that does this.
 Create your own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x).
 ```
+The program will run everytime when 'y' is added, with question : ''Do you want to check another number. 
+The method isdigit() was used to returns True if all the characters are digits, or False if not. Also we used newton method return root square of the input.
 
-For this task we import the math module. Created while loop() to prompt positive number. Using the sqrt() function to calculate a square root. The square returns float point value.
-
+Syntax: 
 ```python
-result = math.sqrt(float(positive_number))
-print(f'The square root of {positive_number} is : {result}')
-```
+def newton_method(number):
+        '''newton method return root square of the input'''
 
-Reference to understand we use [Youtube](https://www.youtube.com/watch?v=C_FFlau09_8), [Codeleaks](https://www.codeleaks.io/python-square-root-function/)
+        first_site = user_number/2
+        second_site = user_number/first_site
+        count=0
+
+        while round(first_site*first_site,8) != user_number:
+            first_site = (first_site+second_site)/2
+            second_site = user_number/first_site
+            count+=1
+
+        print(f'the root of {user_number} is {first_site}')
+        print(f'Number of iterations to get root square: {count}')
+
+```
+This weekly task was difficult and requires a lot of time to research.
+Reference to understand we use: [Youtube: Newton’s - Method In Python](https://www.youtube.com/watch?v=99ABkygm2Xg),  [Youtube: Newtona](https://www.youtube.com/watch?v=C_FFlau09_8), [Codeleaks](https://www.codeleaks.io/python-square-root-function/) and [3school](https://www.w3schools.com/python/ref_string_isdigit.asp#:~:text=The%20isdigit()%20method%20returns,considered%20to%20be%20a%20digit.).
 
 ## Weekly Task 07 Argument 
 ```

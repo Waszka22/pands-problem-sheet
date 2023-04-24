@@ -3,11 +3,6 @@
 # Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
 # You should create a function called <tt>sqrt</tt> that does this.
 
-# Ref: https://www.codeleaks.io/python-square-root-function/
-#      https://www.youtube.com/watch?v=C_FFlau09_8 
-
-
-
 request = 'y'
 
 # the program will run everytime when you put 'y'
@@ -46,3 +41,9 @@ while request == 'y':
 print('OVER')
 
     
+# Ref: 
+# https://www.codeleaks.io/python-square-root-function/
+# https://www.w3schools.com/python/ref_string_isdigit.asp#:~:text=The%20isdigit()%20method%20returns,considered%20to%20be%20a%20digit.   
+# https://www.youtube.com/watch?v=C_FFlau09_8 
+# https://www.youtube.com/watch?v=yB4vZ87GioM
+# https://www.youtube.com/watch?v=99ABkygm2Xg
