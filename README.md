@@ -37,7 +37,7 @@ The total with € sign in front of the number and 2 decimal places.
 print(f'The sum of these in € {total:.2f}')
 ```
 
- This task was helpful to understand all operators in Python 
+ This task was helpful to understand all operators in Python. 
 
 Reference for this weekly task  [Python Operators](https://www.w3schools.com/python/python_operators.asp) and YouTube
 

@@ -1,8 +1,7 @@
 # Weekly Task 03
 # Author : Agnieszka Waszczuk 
 # Create variables for the input value and convert input
-# Reference: https://realpython.com/python-input-output/
-#            https://www.w3schools.com/python/python_while_loops.asp
+
 
 # Request enter 10 digits account number 
 # Use input() function allows user input.
@@ -22,3 +21,6 @@ while len (account_no) !=10:
  # Using [-4] shows only last 4 account digits 
 account_no_hidden = f'XXXXXX{account_no[-4:]}'
 print(account_no_hidden)
+
+# Reference: https://realpython.com/python-input-output/
+#            https://www.w3schools.com/python/python_while_loops.asp
