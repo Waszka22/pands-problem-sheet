@@ -150,13 +150,22 @@ Write a program that reads in a text file and outputs the number of e's it conta
 The program should take the filename from an argument on the command line. I have not shown you how to do this, you need to look it up.
 ```
 
-We create FILENAME that contain text file called "moby-dick".
-'r' means reading, opening the file called FILENAME with the purpose of reading. 
+We create filename that contain text file called "moby-dick".
+'r' means reading, opening the fille with the purpose of reading. 
+Import modules sys and use sys.argv[1]
+
 ```python
-with open(FILENAME, 'r') as f:
-    for data in f:
-        print (data)
+with open(filename, 'r') as f:
+    es = f.read()
+    count = es.count("e")
+    print ("The count is:", count)
 ```
+Refrerence for task:
+---
+[w3school](https://www.w3schools.com/python/python_file_open.asp)
+[Geeksforgreeks](https://www.geeksforgeeks.org/how-to-use-sys-argv-in-python/)
+[Knoweledgehut](https://www.knowledgehut.com/blog/programming/sys-argv-python-examples) 
+
 
 ## Weekly Task 08 Plottask 
 
