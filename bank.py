@@ -1,24 +1,20 @@
 # Weekly Task 02
 # Author: Agnieszka Waszczuk 
 # Craeta two variable for the input values and convert input from string to interger
-# Reference https://www.w3schools.com/python/python_operators.asp
 
-# Create two variables for the input values and convert input from string to integer
-amount1 = abs(int(input('Enter amount1(in cent)')))
-amount2 = abs(int(input('Enter amount2(in cent)')))
 
-# sum both amounts and convert numeric value to string
-total = str(amount1 + amount2)
+# Request enter amount1 and amount2
+# Use input() function allows user input.
+amount1 = int(input('Enter amount1 (in cent): '))
+amount2 = int(input('Enter amount2 (in cent):  '))
 
-# use len() method to calculate position of decimal point
-length = len(total)
+# sum both amounts and divide them via 100 to get Euro Units
+total =(amount1 + amount2)/ 100
 
-if length >= 3:
-    output = '€'+total[:length-2]+'.'+total[-2:]
-elif length == 2:
-   output = '€'+total[:length-2]+'0.'+total[-2:]
-else:
-    output = '€'+total[:length-2]+'0.0'+total[-2:]
+# Print out the totla with € sign in front of the number and 2 decimal places
+print(f'The sum of these in € {total:.2f}')
 
-# Print out the total with € sign in front of the number and 2 decimal places
-print(f'The sum of these is {output}')
+
+
+# Ref:https://www.w3schools.com/python/python_operators.asp
+

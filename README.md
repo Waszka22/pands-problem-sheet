@@ -27,33 +27,22 @@ Writing first code "Hello World" in Python.
 ## Wekly task 02 Bank
 
 ``` 
- Write a program called bank.py The program should:
-
+Write a program called bank.py The program should:
 Prompt the user and read in two money amounts (in cent)
-Add the two amounts
 Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount. 
 ```
-Create two variables for the input values and convert input from string to integer
-Sum both amounts and convert numeric value to string
+Created two variables for the input values and convert the input from a string to an integer. The two amounts were added together and divided to obtain the Euro units.
+The total with € sign in front of the number and 2 decimal places.
 ```python
-total = str(amount1 + amount2)
+print(f'The sum of these in € {total:.2f}')
 ```
 
-Use len() method to calculate position of decimal point
-
-The sytntax used: 
-
-``` python
-if length >= 3:
-    output = '€'+total[:length-2]+'.'+total[-2:]
-elif length == 2:
-   output = '€'+total[:length-2]+'0.'+total[-2:]
-else:
-    output = '€'+total[:length-2]+'0.0'+total[-2:]
-```
  This task was helpful to understand all operators in Python 
 
 Reference for this weekly task  [Python Operators](https://www.w3schools.com/python/python_operators.asp) and YouTube
+
+
+
 
 
 ## Wekly task 03 Accounts
