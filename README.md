@@ -191,3 +191,17 @@ Plot used linspace() method to create an array of spaced numbers (100)
 within a specified range (0,10)
 
 Reference for normal distribution we used [3school](https://www.w3schools.com/python/numpy/numpy_random_normal.aspand) and for plot [3school](https://www.w3schools.com/python/matplotlib_plotting.asp)
+
+
+
+### Language 
+* Python 
+## Important Library 
+* math 
+* pandas 
+* matplotlib. pyplot 
+* numpy
+* datetime
+### Technologies 
+* Visual Studio Code
+* Cmder 
