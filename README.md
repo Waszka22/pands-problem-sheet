@@ -192,11 +192,11 @@ within a specified range (0,10)
 
 Reference for normal distribution we used [3school](https://www.w3schools.com/python/numpy/numpy_random_normal.aspand) and for plot [3school](https://www.w3schools.com/python/matplotlib_plotting.asp)
 
-
+---
 
 ### Language 
 * Python 
-## Important Library 
+### Important Library 
 * math 
 * pandas 
 * matplotlib. pyplot 
